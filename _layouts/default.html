@@ -6,12 +6,20 @@
     {% include meta.html %}
 
     <!--[if lt IE 8]>
-      <script src="{{ site.baseurl }}/itebrowser"></script><!--我的隐藏身份：GitHub开源项目IteBrowser的开发者（其实只有我一个人，所以没有之一O(∩_∩)O）-->
+      <iframe src="{{ site.baseurl }}/itebrowser.min.html"></script><!--我的隐藏身份：GitHub开源项目IteBrowser的开发者（其实只有我一个人，所以没有之一O(∩_∩)O）-->
     <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <base src="{{ site.baseurl }}/dist/itebrowser" target="_blank" />
+    <script>
+      var thisday = new Date();
+      var weekdaydom = document.getElementById("time");
+      var weekdaytwo = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
+      var weekday = thisday.getDate();
+      var weekmonth = thisday.getMonth() + 1;
+      var weekyear = thisday.getFullYear();
+      weekdaydom.innerHTML = weekyear + "年" + weekmonth + "月" + weekday + "日" + " " + weekdaytwo;  // weekdaydom在用户是2020.04.18时：2020年4月18日 星期六
+    </script>
   </head>
 
   <body>
@@ -22,7 +30,7 @@
 
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description"><a href="{{ site.baseurl }}/">{{ site.description }}</p>
+            <p class="site-description"><a href="{{ site.baseurl }}/">{{ site.description }}&nbsp;&nbsp;&nbsp;&nbsp;今天是<span id="time"></span></p>
           </div>
 
           <nav>
