@@ -10,28 +10,11 @@ Jekyll是一个静态站点生成器，非常适合GitHub托管的博客
 This is a Open Source blog.
 
 _**Jekyll**_ is a static site generator that's perfect for GitHub hosted blogs.
-## 文件层级
+## 需要更改的文件
 ```
-_includes - 1 files:   Folder
-  meta.html
-_layouts - 2 files:  Folder
-  default.html
-  post.html
-_posts - ? files   Folder
-  yyyy-mm-dd-ArticleName.md
-  2020-7-18-Hello World.md      (Template(模板))
-_sass - 1 files
-  _highlight.scss
-images - 1 files(keep file)       Folder
-  .keep
-.gitignore
-404.md
-CHAME
-LICENSE.md
-Readme.markdown
+_posts 文章文件夹
 _config.yml
-about.md
-index.html
+about.md    关于
 ```
 ## Chinese:Quick Start 中文：开始
 _Install_
@@ -41,6 +24,8 @@ Fork此Repo
 修改_config.yml
 
 修改Repo的名字为yourgithubusername.github.io
+
+修改about.md（关于）
 
 在_post文件夹新建文章
 
