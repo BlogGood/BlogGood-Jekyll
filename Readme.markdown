@@ -1,4 +1,4 @@
-> If you're on an old version of Jekyll Now and run into a) build warnings or b) syntax highlighting issues caused by Jekyll 3 and GitHub Pages updates, just ✨update your _config.yml✨ and you'll be set!
+> If you're on an old version of Blog Good and run into a) build warnings or b) syntax highlighting issues caused by Jekyll 3 and GitHub Pages updates, just ✨update your _config.yml✨ and you'll be set!
 # Blog Good
 这是一个开源博客.
 
