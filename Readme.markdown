@@ -31,5 +31,8 @@ _Install_
 
 4. 修改about.md（关于）
 
-5. 在`_post`文件夹新建文章
+5. 在`_posts`文件夹新建文章
 
+具体：[https://blog.csdn.net/RockyXY/article/details/107322664](https://blog.csdn.net/RockyXY/article/details/107322664)
+## 其他...
+[Commit Issues](https://github.com/BlogGood/BlogGood-Jekyll/issues)
