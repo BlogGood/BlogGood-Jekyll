@@ -1,8 +1,9 @@
-> If you're on an old version of Blog Good and run into a) build warnings or b) syntax highlighting issues caused by Jekyll 3 and GitHub Pages updates, just ✨update your `_config.yml`✨ and you'll be set!
+> 打算使用时，请按照[https://blog.csdn.net/RockyXY/article/details/107322664](https://blog.csdn.net/RockyXY/article/details/107322664) 操作 :relaxed:
 ## Menu:
-- [Blog Good](https://github.com/BlogGood/BlogGood-Jekyll/tree/master)
-  - [需要更改的文件](https://github.com/BlogGood/BlogGood-Jekyll#需要更改的文件)
-  - [开始](https://github.com/BlogGood/BlogGood-Jekyll/#开始)
+:relaxed::relaxed::relaxed::relaxed::relaxed::relaxed::relaxed:
+- [Blog Good](https://github.com/BlogGood/BlogGood-Jekyll/tree/master):relaxed:
+  - [需要更改的文件](https://github.com/BlogGood/BlogGood-Jekyll#需要更改的文件):relaxed:
+  - [开始](https://github.com/BlogGood/BlogGood-Jekyll/#开始):relaxed:
 # Blog Good
 这是一个开源博客.
 
