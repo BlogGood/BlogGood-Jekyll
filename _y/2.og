@@ -1,3 +1,0 @@
-og version is 1
-@og Command(t)
-@og var(post: URL-{ site.baseurl }/_post)
