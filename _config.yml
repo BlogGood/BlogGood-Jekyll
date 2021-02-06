@@ -4,6 +4,8 @@ name: 你的名字
 # 博客描述
 description: 博客描述
 
+description-c: 不忘初心，一生浪漫 # 好词好句
+
 # 你的LOGO（头像，推荐100x100（必须10x10到200x200之内）），这里用这个项目大部分使用的Jekyll的LOGO，
 # 地址是GitHub的文件存储，大陆用户打不开，推荐新建ORG，再使用GitHub Pages上传图片。
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
