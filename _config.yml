@@ -6,8 +6,8 @@ description: 博客描述
 
 description-c: 不忘初心，一生浪漫 # 好词好句
 
-# 你的LOGO（头像，推荐100x100（必须10x10到200x200之内）），这里用这个项目logo.
-avatar: https://bg-r.github.io
+# 你的LOGO（头像，推荐100x100（必须10x10到200x200之内）），这里用这个项目logo.(大陆也能访问)
+avatar: https://bg-r.github.io/images/BGlogo.png
 
 #
 # Flags below are optional
